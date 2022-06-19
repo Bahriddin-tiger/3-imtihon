@@ -1,0 +1,46 @@
+.nike{
+    padding: 70px;
+
+}
+
+.nike__inner{
+    display: flex;
+    align-items: center;
+ 
+}
+.hero__link--active{
+    padding: 12px 90px;
+}
+
+
+.hero__title--nike{
+    width: 100%;
+    max-width: 380px;
+}
+.nike__img{
+    margin-left: auto;
+    width: 400px;
+    height: 600px;
+    border-radius:20px; 
+}
+
+@media only screen and (max-width:520px){
+    .nike__inner{
+        justify-content: start;
+        flex-direction: column-reverse;
+    }
+    .nike__img{
+       
+       width: 343px;
+        height: 420px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 41px;
+    }
+
+    .hero__title--nike{
+       
+        font-size: 46px;
+    }
+
+}

@@ -1,0 +1,47 @@
+.control{
+    position: relative;
+    padding: 240px 0;
+    background-image: url("../images/childrens.png");
+    background-size: 1250px 830px;
+    background-position: calc(50%) calc(50%);
+    background-repeat: no-repeat;
+}
+
+.hero__inner--control{
+    margin-left: auto;
+}
+
+.hero__title--control{
+    color: #fff;
+   
+ 
+    margin-bottom: 30px;
+}
+
+.hero__text--control{
+    color: #fff;
+    padding-left: 40px;
+    margin-bottom: 30px;
+    border-left: 3px solid #fff;
+}
+
+.hero__link--control{
+    padding: 12px 46px;
+}
+
+@media only screen and (max-width:520px){
+    .control{
+        padding: 100px 0;
+        background-position: contain;
+    }
+    .hero__inner--control{
+        margin: 0;
+       
+    }
+    .hero__title--control{
+        font-size: 46px;
+    }
+    .hero__text--control{
+        max-width: 307px;;
+    }
+}

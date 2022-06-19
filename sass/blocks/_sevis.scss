@@ -1,0 +1,125 @@
+.servis {
+    padding: 70px;
+}
+
+.servis__list {
+    display: flex;
+    align-items: start;
+   
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+.servis__item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    max-width: 280px;
+    margin: 0;
+    padding: 0;
+    margin-right: 80px;
+    list-style-type: none;
+}
+
+.servis__item:last-child{
+    margin-right: 0;
+}
+.servis__title {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 150%;
+     color: #222;
+
+}
+.servis__text {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 160%;
+     color: #333;
+   
+}
+.servis__box {
+    display: flex;
+    align-items: center;
+   
+}
+.servis__span {
+
+    width: 8px;
+    height: 8px;
+    margin-right: 10px;
+    background-color: #DDD;
+}
+
+.servis__line-box{
+    display: flex;
+    align-items: center;
+}
+
+.servis__span--midle {
+    width: 40px;
+    height: 3px;
+    margin-top: 5px;
+    background-color: #ea625c;
+}
+.servis__span--red {
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    text-decoration: none;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #ea625c;
+}
+.servis__corusel{
+    display: none !important;
+}
+
+.carusel__box{
+    margin: 0px auto;
+    width: 46px;
+    height: 25px;
+    background-color: #f7c0be;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.carusel__span{
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.carusel__span--activ{
+    display: block;
+    width: 8px;
+    height: 5px;
+    background-color: #ea625c;
+    border-radius: 2.5px;
+    margin-left: 10px;
+}
+
+
+
+@media only screen and (max-width:520px){
+    .servis__corusel{
+        display: block !important;
+    }
+    .servis__list{
+        display: none;
+    }
+}

@@ -5,12 +5,296 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>3-oy</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
+  <!-- site header  -->
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a href="./index.html" class="site-header__logo-link">
+          <img class="site-header__img" src="./images/site-logo.svg" width="35" height="42" alt="apple">
+        </a>
+        <nav class="site-header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                Offers
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                Services
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="site-header__link">
+          How can we help you?
+        </a>
+        <button class="site-header__btn">
+          <img class="site-header__btn-img" src="./images/btn.svg" width="21" height="19" alt="btn">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <h1 class="hero__title">
+            Freedom calls.
+          </h1>
+          <p class="hero__text">
+            Answer a call from your surfboard. Ask Siri to send a message. Stream your favorite songs on your run. And
+            do it all while leaving your phone behind. Introducing Apple Watch Series 3 with cellular. Now you have the
+            freedom to go with just your watch.
+          </p>
+          <a href="#" class="hero__link">
+            Watch the keynote
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="servis">
+      <div class="container">
+        <ol class="servis__list">
+          <li class="servis__item">
+            <h2 class="servis__title">
+              Know your runs. In and out.
+            </h2>
+            <p class="servis__text">
+              Train smarter with more in-run stats. Want to compare a run to your last five? Just swipe left. Mark
+              splits by selecting pause or using gestures, like tapping the screen or double-clicking the side button.
+              And get a full post-run report, including elevation.
+            </p>
+            <div class="servis__box">
+              <span class="servis__span">
+
+              </span>
+              <span class="servis__span">
+
+              </span>
+              <span class="servis__span">
+
+              </span>
+            </div>
+          </li>
+          <li class="servis__item">
+            <h2 class="servis__title">
+              Run in good spirits.
+            </h2>
+            <p class="servis__text">
+              A little support can go a long way. You can receive encouraging emoji from friends. And reminders
+              triggered by your friends’ shared activity, the current weather, or your own history give you every reason
+              to run.
+            </p>
+            <div class="servis__box">
+              <span class="servis__span">
+
+              </span>
+              <span class="servis__span">
+
+              </span>
+              <span class="servis__span">
+
+              </span>
+            </div>
+          </li>
+          <li class="servis__item">
+            <h2 class="servis__title">
+              Just do it. Sunday.
+            </h2>
+            <p class="servis__text">
+              Run every Sunday and see how long you can keep your streak alive. Fuel your run with exclusive Nike+ Run
+              Club playlists on Apple Music.
+            </p>
+            <div class="servis__line-box">
+              <span class="servis__span servis__span--midle">
+
+              </span>
+              <a href="#" class="servis__span--red">
+                Learn more
+              </a>
+            </div>
+          </li>
+        </ol>
+
+
+        <div id="carouselExampleDark" class=" servis__corusel carousel carousel-dark slide  " data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <!-- <img src="..." class="d-block w-100" alt="..."> -->
+              <li class="servis__item d-block w-100">
+                <h2 class="servis__title">
+                  Know your runs. In and out.
+                </h2>
+                <p class="servis__text">
+                  Train smarter with more in-run stats. Want to compare a run to your last five? Just swipe left. Mark
+                  splits by selecting pause or using gestures, like tapping the screen or double-clicking the side
+                  button.
+                  And get a full post-run report, including elevation.
+                </p>
+                <div class="servis__box">
+                  <span class="servis__span">
+
+                  </span>
+                  <span class="servis__span">
+
+                  </span>
+                  <span class="servis__span">
+
+                  </span>
+                </div>
+              </li>
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p> -->
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <!-- <img src="..." class="d-block w-100" alt="..."> -->
+              <li class="servis__item d-block w-100">
+                <h2 class="servis__title">
+                  Run in good spirits.
+                </h2>
+                <p class="servis__text">
+                  A little support can go a long way. You can receive encouraging emoji from friends. And reminders
+                  triggered by your friends’ shared activity, the current weather, or your own history give you every
+                  reason
+                  to run.
+                </p>
+                <div class="servis__box">
+                  <span class="servis__span">
+
+                  </span>
+                  <span class="servis__span">
+
+                  </span>
+                  <span class="servis__span">
+
+                  </span>
+                </div>
+              </li>
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p> -->
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <!-- <img src="..." class="d-block w-100" alt="..."> -->
+              <li class="servis__item d-block w-100">
+                <h2 class="servis__title">
+                  Just do it. Sunday.
+                </h2>
+                <p class="servis__text">
+                  Run every Sunday and see how long you can keep your streak alive. Fuel your run with exclusive Nike+
+                  Run
+                  Club playlists on Apple Music.
+                </p>
+                <div class="servis__line-box">
+                  <span class="servis__span servis__span--midle">
+
+                  </span>
+                  <a href="#" class="servis__span--red">
+                    Learn more
+                  </a>
+                </div>
+              </li>
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p> -->
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <div class="carusel__box">
+            <span class="carusel__span carusel__span--activ"></span>
+            <span class="carusel__span"></span>
+            <span class="carusel__span"></span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="nike">
+      <div class="container">
+        <div class="nike__inner">
+          <div class="hero__inner">
+            <h1 class="hero__title  hero__title--nike">
+              Nike Sport Band.
+              Light. Flexible.
+              Breathable.
+            </h1>
+            <p class="hero__text">
+              Made from the same durable, lightweight fluoroelastomer as the original Apple Watch Sport Band, the Nike
+              Sport Band reduces weight and improves ventilation via row after row of compression-molded perforations.
+            </p>
+            <a href="#" class="hero__link  hero__link--active">
+              Buy now
+            </a>
+          </div>
+          <img class="nike__img" src="./images/watch-in-hand.jpg" width="400" height="600" alt="nike clock">
+        </div>
+      </div>
+    </section>
+
+    <section class="control">
+      <div class="container">
+        <div class=" hero__inner hero__inner--control">
+          <h1 class="hero__title  hero__title--control">
+            Take control of your health.
+          </h1>
+          <p class=" hero__text hero__text--control">
+            With built-in GPS and altimeter, Apple Watch Nike+ has all the features to help you take your run to the
+            next level. You can even pair your watch wirelessly with compatible gym equipment. And it’s swimproof, so
+            you can take a post-run dip in the pool.
+          </p>
+          <a href="#" class="hero__link  hero__link--control">
+            Explore features
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+  <script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>
